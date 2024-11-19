@@ -1,0 +1,24 @@
+@import '@fontsource/inter/300.css';
+@import '@fontsource/inter/500.css';
+@import '@fontsource/inter/700.css';
+
+@import '@fontsource/fraunces/300.css';
+@import '@fontsource/fraunces/500.css';
+@import '@fontsource/fraunces/700.css';
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+	html {
+		font-family: 'Inter', system-ui, sans-serif;
+	}
+}
+
+@layer utilities {
+	.container-tight {
+		@apply max-w-[700px];
+		@apply mx-auto;
+	}
+}
